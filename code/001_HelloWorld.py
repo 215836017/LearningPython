@@ -1,12 +1,14 @@
-print("Hello World, Hello Python.");
+#!/usr/bin/env python3
 
+# 标题：第一个Python程序
+
+print("Hello World, Hello Python.");
 print('Hello World!!! Hello Python!!!')
 
 print("总结：")
 print("1. Python中行尾分号可有可无，Python中默认不加分号----换行即一行结束")
 print("2. Python中的字符串：单引号和双引号都可以,但是要配对，不能胡乱嵌套")
 print("3. 每一行的开头不能随意加空格，因为Python是根据每一行开始的缩进来识别代码结构的----即Python中行开头的空格类似于Java中的{}")
-
 
 '''
 注释：
@@ -31,4 +33,4 @@ $ chmod a+x hello.py
 ./hello.py
 '''
 
-print('Hello Python: A happy beginning!')
+print('Hello Python: A happy beginning!!!')

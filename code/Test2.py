@@ -38,13 +38,11 @@ print(testThree1)
 print(testThree2)
 print(testThree3)
 
-
 '''
 1. 一个布尔值只有True、False两种值，要么是True，要么是False
 2. 在Python中，可以直接用True、False表示布尔值（请注意大小写）,也可以通过布尔运算计算出来
 3. 布尔值可以用and、or和not运算。
 '''
-
 
 '''
 1. 空值是Python里一个特殊的值，用None表示。None不能理解为0，因为0是有意义的，而None是一个特殊的空值。
