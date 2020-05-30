@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-# 标题: 学习Python中的键盘输入
+# 标题: Python中的键盘输入
 
 print('Python提供了一个input()，可以让用户从键盘进行输入')
 

@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 
-# 标题: 学习Python中的打印语句
+# 标题: Python中的打印语句
 
-
+print('python中使用print来打印语句')
 '''
 简单打印
 1. 注意print前面不要有任何空格
