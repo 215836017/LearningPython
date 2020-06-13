@@ -14,7 +14,7 @@ print('python中使用print来打印语句')
 print(100)
 print(100 + 200)
 print(100 - 200)
-print('100 + 200 = ', 100 + 200)   # 这个格式比较美观
+print('100 + 200 = ', 100 + 200)  # 这个格式比较美观
 # 打印结果：100
 # 打印结果：300
 # 打印结果：-100
@@ -31,7 +31,15 @@ a = a ^ b
 b = a ^ b
 a = a ^ b
 print('exchange: a=%d' % a + ',b=%d' % b)
+# name = zhangSan, age = 20, phone = 13100001111
 
+'''
+使用占位符 %
+'''
+name = 'zhangSan'
+age = 20
+phone = 13100001111
+print('name = %s, age = %d, phone = %d' % (name, age, phone))
 '''
 使用format：
 1. 格式为 “{}”format(...) ----{}其实是set
@@ -90,3 +98,13 @@ b、d、o、x 分别是二进制、十进制、八进制、十六进制
 # 6. 使用大括号 {} 来转义大括号{}
 print("{} 对应的位置是 {{0}}".format("string", "int", 'float'))
 print("{2} 对应的位置是 {{2}}".format("string", "int", 'float'))
+
+# 7. 使用自定义的分隔符
+name = 'zhangSan'
+age = 12
+print(name, age, sep='-')
+print(name, age, sep='##')
+
+# 8. 使用自定义的行尾符合 --- 见print()方法的源码，行尾默认是换行
+print(name, age, end='...')
+print(name, age, end='--finish')
