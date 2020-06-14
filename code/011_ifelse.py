@@ -11,7 +11,7 @@
 '''·
 1. 条件语句： 
    if else
-   *** Python中没有 switch语句 **
+   *** Python中没有 switch语句 ***
 '''
 
 '''
