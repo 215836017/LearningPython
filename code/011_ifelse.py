@@ -44,3 +44,12 @@ elif num >= 10 and num < 20:  # 此处有更简洁的写法： 10 <= num < 20
     print('22222222')
 else:
     print('333333333')
+
+'''
+4. pass关键字
+'''
+print('\n\ntest  4444444444')
+if (10 < 7):
+    pass
+else:
+    print('hhhhhhhhhhhh')
