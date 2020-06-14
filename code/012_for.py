@@ -45,3 +45,28 @@ for i in range(10):
         print('Hello', i)
 else:
     print('for loop finish')
+'''
+Hello 5
+Hello 6
+Hello 7
+Hello 8
+Hello 9
+for loop finish
+'''
+
+'''
+4. 结合break使用
+'''
+print('\n\ntest 44444444')
+for i in range(3):
+    userName = input('please input userName:')
+    pwd = input('please input password:')
+    if userName == 'admin' and pwd == '123456':
+        print('Welcome admin!!!')
+        break
+    else:
+        print('userName or password is invalid, please input again')
+else:
+    print('账户被锁定，需要重新激活！')
+# TODO 经过测试可知：如果for是正常完成时，会进入到for-else结构的else分支。
+# TODO 当使用break跳出for循环后，for-else中的else分支也不会再进入了
