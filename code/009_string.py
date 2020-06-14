@@ -148,6 +148,11 @@ print(name[2:5])  # 切片：包前不抱后
 print(name[2:])  # 切片：包前不抱后
 print(name[:5])  # 切片：包前不抱后
 print(name[:])  # 切片：包前不抱后
+print(name[2:-1])  # 切片：包前不抱后
+print(name[-3:-1])  # 切片：包前不抱后
+print(name[-1:])  # 切片：包前不抱后
+print(name[-1:0])  # 切片：包前不抱后
+print(name[-1:-5])  # 切片：包前不抱后
 '''
 打印结果：
 h
@@ -156,4 +161,19 @@ tho
 thon
 pytho
 python
+tho
+ho
+n
+ (空的)
+ (空的)
+'''
+
+'''
+9. 实现倒序输出
+'''
+print('\n\ntest 99999999999')
+print(name[::-1])
+'''
+打印结果：
+nohtyp
 '''
