@@ -5,22 +5,6 @@ print('使用list和tuple')
 '''
 
 '''
-list
-1. Python内置的一种数据类型是列表：list。list是一种有序的集合，可以随时添加和删除其中的元素。
-2. 用索引来访问list中每一个位置的元素，记得索引是从0开始的
-3. 如果要取最后一个元素，除了计算索引位置外，还可以用-1做索引，直接获取最后一个元素
-4. append -- 往list中追加元素到末尾
-   insert -- 把元素插入到指定的位置
-   pop -- 删除list末尾的元素
-   pop(i) -- 删除指定位置(i处)的元素
-   要把某个元素替换成别的元素，可以直接赋值给对应的索引位置
-5. list里面的元素的数据类型也可以不同, 元素也可以是另一个list
-'''
-classmates = ['abc', '123', 'def', '456', 'ghj', '789']
-print('classmates is:', classmates)
-
-
-'''
 tuple
 1. 另一种有序列表叫元组：tuple。tuple和list非常类似，但是tuple一旦初始化就不能修改, 它也没有append()，insert()这样的方法。
 其他获取元素的方法和list是一样的，你可以正常地使用classmates[0]，classmates[-1]，但不能赋值成另外的元素。
