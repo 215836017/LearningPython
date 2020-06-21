@@ -1,3 +1,6 @@
+from math import pi
+from math import e
+
 """注：基于python3.7.0"""
 
 '一、 字符串基本操作'
@@ -38,8 +41,6 @@ print('str3:', str3)
 str5 = '{foo} {} {bar} {}'.format(1, 2, bar=4, foo=3)
 print('str5:', str5)
 
-from math import pi
-
 str5_1 = '{name} is approximately {value}'.format(value=pi, name='π')
 print('str5_1:', str5_1)
 str5_2 = '{name} is approximately {value:.2f}'.format(value=pi, name='π')
@@ -55,8 +56,7 @@ str7 = "Mr {name[1]}".format(name=fullName)
 print('str7:', str7)
 
 '在Python3.6及以后版本中，如果变量与替换字段同名，还可以使用简写：使用f字符串----即在字符串前面加f'
-from math import e
 str8 = f"Euler's constant is roughly {e}"
 print('str8:', str8)
-str9 = "Euler's constant is roughly {e}".format(e = e)
+str9 = "Euler's constant is roughly {e}".format(e=e)
 print('str9:', str9)
