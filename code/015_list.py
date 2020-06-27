@@ -34,3 +34,17 @@ print('sequence_10 = ', sequence_10)
 打印结果为：
 sequence_10 =  [None, None, None, None, None, None, None, None, None, None]
 '''
+
+'''
+3. list()方法: 把指定内容转为列表，内容必须是可迭代的
+'''
+print('\n\ntest 4444444')
+list3 = list('Hello Python')
+list3_1 = list(range(1, 10))
+print("list3 = ", list3)
+print("list3_1 = ", list3_1)
+'''
+打印结果：
+list3 =  ['H', 'e', 'l', 'l', 'o', ' ', 'P', 'y', 't', 'h', 'o', 'n']
+list3_1 =  [1, 2, 3, 4, 5, 6, 7, 8, 9]
+'''
